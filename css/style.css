@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgb(243, 253, 243);
+}
+
+/* ////// Header \\\\\\ */
+
+#header {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header img {
+    width: 17vw;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 2px 1px 12px #888888
+}
+
+/* ////// Main \\\\\\ */
+
+.main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/* ////// Footer \\\\\\ */
+
+#footer {
+    background-color: darkslategray;
+    color: white;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    color: rgb(215, 243, 215);
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.redesSociais p {
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.redesSociais ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.redesSociais ul li {
+    padding: 10px;
+}
